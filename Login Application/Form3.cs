@@ -29,7 +29,7 @@ namespace Login_Application
         private void Form3_Load(object sender, EventArgs e)
         {
         
-            sql = new MySqlConnection("Server=127.0.0.1;Uid=root;Pwd=Dev3344_@DB;");
+            sql = new MySqlConnection("Server=127.0.0.1;Uid=root;Pwd=<yourpassword>;");
 
             try
             {
